@@ -4,7 +4,7 @@ var parse = require('dank-csv');
 var Vue = require('vue');
 
 
-$.get('/directory.csv')
+$.get('/data/directory.csv')
   .then(res => parse(res.replace(/\r/g, '\n')))
   .then(createAllPhotoUrls)
   .then(groupByApt)

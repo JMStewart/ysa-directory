@@ -50,7 +50,7 @@
 	var Vue = __webpack_require__(8);
 
 
-	$.get('/directory.csv')
+	$.get('/data/directory.csv')
 	  .then(res => parse(res.replace(/\r/g, '\n')))
 	  .then(createAllPhotoUrls)
 	  .then(groupByApt)
