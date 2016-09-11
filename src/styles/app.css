@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+  background: #e3e3e3;
+}
+
+h1 {
+  border-bottom: 1px solid #e3e3e3;
+}
+
+div.main {
+  background: #ffffff;
+  max-width: 1000px;
+  padding: 20px;
+  margin: auto;
+}
+
+div.apt {
+  margin-top: 30px;
+}
+
+div.apt-people {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.person {
+  /*width: 200px;*/
+
+}
+
+div.person p {
+  text-align: center;
+}
+
+div.person img {
+  width: 250px;
+}

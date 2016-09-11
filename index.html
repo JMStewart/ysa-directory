@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Provo YSA 202 Ward Directory</title>
+</head>
+
+<body>
+  <script src="dist/app.js"></script>
+  <div class="main">
+    <h1>Provo YSA 202 Ward Directory</h1>
+    <div id="app">
+      <div class="apt" v-for="apt in apts">
+        <h3>{{apt.addr1}} {{apt.addr2}}</h3>
+        <div class="apt-people">
+          <div class="person" v-for="person in apt.people">
+            <img v-if="!person.photo" src="http://www.petdrugsonline.co.uk/images/page-headers/cats-master-header"/>
+            <!--<img v-if="person.photo" src="/photos/{{person.photo}}.jpg"/>-->
+            <img v-if="person.photo" :src="person.photoUrl"/>
+            <p>
+              {{person.firstName}} {{person.lastName}}<br/>
+              {{person.phone}}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
