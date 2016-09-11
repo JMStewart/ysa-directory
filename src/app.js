@@ -5,7 +5,7 @@ var Vue = require('vue');
 
 
 $.get('data/directory.csv')
-  .then(res => parse(res.replace(/\r/g, '\n')))
+  .then(function(res) { return parse(res.replace(/\r/g, '\n'));})
   .then(createAllPhotoUrls)
   .then(groupByApt)
   .then(init);
@@ -21,7 +21,7 @@ function createPhotoUrl(person) {
 
 function groupByApt(people) {
   var apts = {};
-  people.forEach(person => {
+  people.forEach(function(person) {
     var addr = person.addr1 + '-' + person.addr2;
     if (!apts[addr]) {
       apts[addr] = {
