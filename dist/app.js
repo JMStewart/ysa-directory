@@ -61,7 +61,7 @@
 	}
 
 	function createPhotoUrl(person) {
-	  person.photoUrl = '/photos/' + person.photo + '.jpg';
+	  person.photoUrl = 'photos/' + person.photo + '.jpg';
 	  return person;
 	}
 
@@ -69,7 +69,6 @@
 	  var apts = {};
 	  people.forEach(person => {
 	    var addr = person.addr1 + '-' + person.addr2;
-	    console.log(addr);
 	    if (!apts[addr]) {
 	      apts[addr] = {
 	        addr1: person.addr1,
@@ -83,7 +82,6 @@
 	}
 
 	function init(data) {
-	  console.log(data);
 	  new Vue({
 	    el: '#app',
 	    data: {
