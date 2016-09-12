@@ -25,7 +25,7 @@ div.apt-people {
 
 div.person {
   /*width: 200px;*/
-  margin: 20px;
+  margin: 0 20px;
 }
 
 div.person p {
