@@ -13,7 +13,8 @@
         <h3>{{apt.addr1}} {{apt.addr2}}</h3>
         <div class="apt-people">
           <div class="person" v-for="person in apt.people">
-            <img v-if="!person.photo" src="http://www.petdrugsonline.co.uk/images/page-headers/cats-master-header"/>
+            <img v-if="!person.photo" src="http://www.findcatnames.com/wp-content/uploads/2014/09/453768-cats-cute.jpg"/>
+            <!--<img v-if="!person.photo" src="http://www.petdrugsonline.co.uk/images/page-headers/cats-master-header"/>-->
             <!--<img v-if="person.photo" src="/photos/{{person.photo}}.jpg"/>-->
             <img v-if="person.photo" :src="person.photoUrl"/>
             <p>
