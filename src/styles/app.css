@@ -16,6 +16,7 @@ div.main {
 
 div.apt {
   margin-top: 30px;
+  break-inside: avoid;
 }
 
 div.apt-people {
