@@ -16,7 +16,7 @@ div.main {
 
 div.apt {
   margin-top: 30px;
-  break-inside: avoid;
+  page-break-inside: avoid;
 }
 
 div.apt-people {
@@ -25,7 +25,6 @@ div.apt-people {
 }
 
 div.person {
-  /*width: 200px;*/
   margin: 0 20px;
 }
 
@@ -33,6 +32,11 @@ div.person p {
   text-align: center;
 }
 
-div.person img {
+div.person .photoContainer {
+  width: 250px;
+  height: 214px;
+}
+
+div.person .photoContainer img {
   width: 250px;
 }
