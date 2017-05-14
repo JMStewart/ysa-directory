@@ -5,8 +5,11 @@ module.exports = {
         filename: "dist/app.js"
     },
     module: {
-        loaders: [
-            { test: /\.css$/, loader: "style!css" }
+        rules: [
+            {
+                test: /\.css$/,
+                loader: "style-loader!css-loader"
+            }
         ]
     }
 };
