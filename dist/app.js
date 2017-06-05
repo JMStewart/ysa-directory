@@ -20312,7 +20312,7 @@ exports = module.exports = __webpack_require__(5)();
 
 
 // module
-exports.push([module.i, "body {\n  font-family: sans-serif;\n  background: #e3e3e3;\n}\n\nh1 {\n  border-bottom: 1px solid #e3e3e3;\n}\n\ndiv.main {\n  background: #ffffff;\n  max-width: 1000px;\n  padding: 20px;\n  margin: auto;\n}\n\ndiv.apt {\n  margin-top: 30px;\n  page-break-inside: avoid;\n}\n\ndiv.apt-people {\n  display: flex;\n  flex-wrap: wrap;\n}\n\ndiv.person {\n  margin: 0 20px;\n}\n\ndiv.person p {\n  text-align: center;\n}\n\ndiv.person .photoContainer {\n  width: 250px;\n  height: 214px;\n}\n\ndiv.person .photoContainer img {\n  width: 250px;\n}", ""]);
+exports.push([module.i, "body {\n  font-family: sans-serif;\n  background: #e3e3e3;\n}\n\nh1 {\n  border-bottom: 1px solid #e3e3e3;\n}\n\ndiv.main {\n  background: #ffffff;\n  max-width: 870px;\n  padding: 20px;\n  margin: auto;\n}\n\ndiv.apt {\n  margin-top: 30px;\n  page-break-inside: avoid;\n}\n\ndiv.apt-people {\n  display: flex;\n  flex-wrap: wrap;\n}\n\ndiv.person {\n  margin: 0 20px;\n}\n\ndiv.person p {\n  text-align: center;\n}\n\ndiv.person .photoContainer {\n  width: 250px;\n  height: 214px;\n}\n\ndiv.person .photoContainer img {\n  width: 250px;\n}", ""]);
 
 // exports
 
